@@ -1,0 +1,11 @@
+
+#include<stdio.h>
+
+int main(void)
+
+{
+	int i;
+	scanf_s("%d", &i);
+	printf("%#o %#X %f", i, i, (float)i);
+	return 0;
+}
